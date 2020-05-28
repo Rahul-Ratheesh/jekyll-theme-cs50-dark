@@ -2,7 +2,7 @@
 $font-family-sans-serif: "PT Sans" !default;
 
 // Crimson links
-$link-color: #a51c30 !default;
+$link-color: #202020 !default;
 $link-hover-color: $link-color !default;
 
 // Import Bootstrap
@@ -43,9 +43,9 @@ img {
     width: fit-content;
 }
 
-// black background, transparent text
+// Crimson background, transparent text
 aside {
-    background-color: #202020;
+    background-color: $link-color;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.125rem;
 }
@@ -82,6 +82,10 @@ aside h4,
 aside h5, 
 aside h6 {
     font-weight: bold;
+}
+
+aside hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 // Opaque text
