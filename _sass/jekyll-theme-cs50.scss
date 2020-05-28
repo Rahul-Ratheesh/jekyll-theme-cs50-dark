@@ -2,7 +2,7 @@
 $font-family-sans-serif: "PT Sans" !default;
 
 // Crimson links
-$link-color: #202020 !default;
+$link-color: #a51c30 !default;
 $link-hover-color: $link-color !default;
 
 // Import Bootstrap
@@ -43,16 +43,15 @@ img {
     width: fit-content;
 }
 
-hr {
-    border-top: 1px solid rgba(255, 255, 255, 0.25);
-}
-
-
 // Crimson background, transparent text
 aside {
-    background-color: $link-color;
+    background-color: $202020;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.125rem;
+}
+
+aside hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 // Override column's padding
